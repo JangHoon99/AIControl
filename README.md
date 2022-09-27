@@ -39,5 +39,15 @@ end code block.
 <a> https://phoenixnap.com/kb/wp-content/uploads/2021/11/vim-commands-cheat-sheet-by-pnap.pdf
 ### Python3 QG site
 <a> https://www.tutorialspoint.com/python/python_quick_guide.htm
+  
+list = [ 'abcd', 786 , 2.23, 'john', 70.2]
+tinylist = [123, 'john']
+
+print(list)
+print(list[0])
+print(list[1:3]) <<<< 버그
+print(list[2:])
+print(tinylist * 2)
+print(list + tinylist)
 
 
